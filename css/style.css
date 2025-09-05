@@ -38,3 +38,11 @@ body {
   color: white;
   text-decoration: none;
 }
+.main-nav a:hover {
+  text-decoration: underline;
+}
+.search-form {
+  margin: auto;
+  display: flex;
+  gap: 0.5rem;
+}
