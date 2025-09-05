@@ -12,3 +12,14 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
+.site-header {
+  position: sticky;
+  top: 0;
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  z-index: 1000;
+}
