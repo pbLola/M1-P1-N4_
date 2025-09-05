@@ -34,3 +34,7 @@ body {
   display: flex;
   gap: 1rem;
 }
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
