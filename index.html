@@ -24,6 +24,23 @@
           <li><a href="#contato"></a>Contato</li>
         </ul>
       </nav>
+      <form
+        role="search"
+        method="get"
+        action="/search"
+        class="search-form"
+        aria-label="Busca no site"
+      >
+        <label for="q" class="sr-only">Pesquisar</label>
+        <input
+          id="q"
+          name="q"
+          type="submit"
+          placeholder="Pesquisar"
+          aria-label="Pesquisar notícias"
+        />
+        <button type="submit" aria-label="Enviar pesquisa">Ir</button>
+      </form>
     </header>
     <main id="home" role="main"></main>
     <footer id="contato" role="contentinfo"></footer>
