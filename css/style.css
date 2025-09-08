@@ -139,3 +139,19 @@ footer {
   color: white;
   border-radius: 8px;
 }
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.footer-list h3 {
+  margin-bottom: 0.5;
+}
+.footer-list a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+.footer-list a:hover {
+  text-decoration: underline;
+}
