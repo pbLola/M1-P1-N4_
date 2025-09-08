@@ -83,28 +83,28 @@ body {
 .cta:hover {
   background: #002244;
 }
-.new-list {
+.news-list {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
-.new-list article {
+.news-list article {
   background: white;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
-.new-list h3 {
+.news-list h3 {
   margin: 0.5rem 0;
 }
-.new-list .meta {
+.news-list .meta {
   font-size: 0.85;
   color: #666;
   margin-bottom: 0.5rem;
 }
-.new-list a {
+.news-list a {
   color: #003366;
   text-decoration: none;
   font-weight: bold;
@@ -114,6 +114,15 @@ aside {
   padding: 1rem;
   margin: 2rem 0;
   border-radius: 8px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+aside nav {
+  flex: 2;
+}
+aside section {
+  flex: 2;
 }
 aside h2,
 aside h3 {
@@ -129,7 +138,7 @@ aside li {
 }
 aside a {
   color: #003366;
-  text-decoration: none;
+  padding: auto;
 }
 
 footer {
@@ -154,4 +163,14 @@ footer {
 }
 .footer-list a:hover {
   text-decoration: underline;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
