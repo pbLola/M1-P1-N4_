@@ -83,3 +83,29 @@ body {
 .cta:hover {
   background: #002244;
 }
+.new-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.new-list article {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.new-list h3 {
+  margin: 0.5rem 0;
+}
+.new-list .meta {
+  font-size: 0.85;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.new-list a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
